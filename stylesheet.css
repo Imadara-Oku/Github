@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.me{
+    text-align: end;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.share{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+.read{
+    background-color: rgb(15, 15, 115);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transform: translateY(180px);
+}
+h1{
+    text-align: center;
+    color: rgb(44, 44, 92);
+    font-size: 255%;
+}
+
+p{
+    text-align: center;
+}
+span{
+    color: lightgreen;
+    text-decoration: underline;
+}
+.box-one{text-align: center;
+    background-color: azure;
+    flex: 7;
+    overflow: hidden;
+}
+.box-two{
+    text-align: center;
+    background-color: rgb(15, 15, 115);
+    flex: 5;
+    color: white;
+}
+.box{
+    padding: 25px 60px;
+}
+.main{
+   display: flex;
+   min-height: 100vh;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.box-two input{
+    display: block;
+    width: 80%;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(51, 51, 75);
+    outline: none;
+    color: white;
+}
+.box-two input::placeholder{
+    color: rgb(214, 206, 206);
+}
+.box-two select{
+    width: 50%;
+    padding: 10px;
+    border-radius: 40px;
+    outline: none;
+    background-color: rgb(51, 51, 75);
+    color: white;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.button-wrapper button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 75);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.button-wrapper button:hover{
+    background-color:  rgb(32, 32, 205);
+}
+
+.submit-button{
+    width: 100%;
+    background-color: rgb(32, 32, 205);
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button{
+    position: relative;
+}
+.submit-button i {
+    position: absolute;
+    right: 10px;
+}
